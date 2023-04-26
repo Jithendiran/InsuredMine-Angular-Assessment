@@ -1,0 +1,8 @@
+<div class="wrapper p-4">
+    <div class="textarea">
+        <div #msgBox id="msgbox" (click)="click($event)" [mentionConfig]="mentionConfig" (input)="keyUp()"
+            (closed)="closed()" (itemSelected)="itemSelected($event.label)" class="p-2" contenteditable="true">
+        </div>
+    </div>
+    <button class="d-flex  mt-2" mat-raised-button color="primary" (click)="clear()">Clear</button>
+</div>

@@ -1,0 +1,29 @@
+.textarea {
+    outline: none;
+    border: 2px solid #d9863e;
+    border-radius: 10px;
+    width: 355px;
+    height: 155px;
+}
+
+#msgbox,
+.textarea {
+    resize: none;
+
+    outline: none;
+}
+
+#msgbox * {
+    word-wrap: break-word;
+}
+
+#msgbox {
+    overflow-y: auto;
+    width: 350px;
+    height: 150px;
+}
+
+.textarea:focus {
+    outline: none !important;
+    border-color: #719ECE;
+}

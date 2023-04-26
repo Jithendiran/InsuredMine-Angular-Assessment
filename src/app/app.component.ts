@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'InsuredMineAssessment';
 
-  content = ['Apple', 'Ball', 'Cat']
+  content = ["Gina Williams", "Jake Williams", "Jamie John", "John Doe", "Jeff Stewart", "Paula M. Keith"]
   msgBoxData = [
     {
       content: this.content,
